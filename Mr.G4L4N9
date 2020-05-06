@@ -1,0 +1,68 @@
+# cara membuat tools untuk pemula
+clear
+figlet "tools"
+echo "------------------------------------------"
+echo "Author =Mr.g4l4n9"
+echo "youtube=JKT Your Gaming"
+echo "github=https://github.com/kepo55
+echo "------------------------------------------"
+echo
+Sleep 1
+echo "pilih menu toolsnya"
+echo "[1]Dark FB"
+echo "[2]MBF"
+echo "[3]DDOS"
+echo "[4]Hack CCTV"
+echo "[5]spam jd id"
+echo "[6]install bahan"
+read -p "[?] pilih :" pil;
+# batas gan
+if [ $pil = 1 ]
+then
+git clone https://github.com/kepo55/jembutz
+cd jembutz
+python2 jembutz
+slepp 2
+fi
+# batas gan
+if [ $pil = 2 ]
+then
+git clone https://github.com/pirmansx/mbf
+cd mbf
+python2 MBF.py
+fi
+Sleep 1
+# batas gan
+if [ $pil = 3 ]
+then
+git clone https://github.com/cyweb/hammer
+cd hammer
+python2 hammer.py
+fi
+Sleep 2
+# batas gan
+if [ $pil = 4 ]
+then
+git clone https://github.com/kancotdiq/ipcs
+cd ipcs
+python2 scan.py
+fi
+Sleep 1
+# batas gan
+if [ $pil = 5 ]
+then
+git clone https://github.com/kepo55/Call
+cd Call
+fi
+Sleep 2
+# batas gan
+if [$pil = 6 ]
+then
+pkg update && pkg upgrade
+pkg install nano
+pkg install python
+pkg install git
+pkg install python2
+pip install requests mechanize
+pip2 install requests mechanize
+fi
